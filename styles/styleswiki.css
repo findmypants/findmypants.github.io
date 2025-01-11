@@ -1,0 +1,200 @@
+/* Navbar */
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: #1f1f1f;
+  padding: 15px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  z-index: 100;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #f1f1f1;
+  font-size: 1.2em;
+  transition: color 0.3s ease;
+  padding: 10px 15px;
+}
+
+.navbar ul li a:hover {
+  color: #fc8910;
+  background-color: #333;
+  border-radius: 5px;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+.container {
+  background-color: #1f1f1f;
+  padding: 40px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  width: 90%;
+  max-width: 800px;
+  margin-top: 20px;
+}
+
+/* Headings */
+h1 {
+  color: #fc8910;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #fc8910;
+  font-size: 2em;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+/* Paragraphs */
+p {
+  color: #b0b0b0;
+  font-size: 1.2em;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+ul {
+  text-align: left;
+  margin: 20px;
+  font-size: 1.1em;
+}
+
+/* Styling the list items for prompts */
+ul li {
+  color: #b0b0b0;
+  margin: 10px 0;
+}
+
+/* Wiki Content */
+.wiki-content {
+  text-align: left;
+  margin-top: 40px;
+}
+
+/* Image Styling */
+img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  margin-top: 20px;
+}
+
+/* Buttons */
+.button {
+  padding: 12px 30px;
+  background-color: #fc8910;
+  color: white;
+  font-size: 1.1em;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+.button:hover {
+  background-color: #d65300;
+}
+
+/* Footer */
+footer {
+  color: #888;
+  font-size: 1em;
+  margin-top: 20px;
+}
+
+/* Link Styling */
+a {
+  color: #f1f1f1;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fc8910;
+}
+
+/* Add padding to avoid content from sticking to the top */
+.container {
+  padding: 40px;
+}
+
+/* Special for tutorial pages to improve readability */
+.tutorial-header {
+  font-size: 2em;
+  color: #e0e0e0;
+  margin-bottom: 20px;
+}
+
+.tutorial-section {
+  margin-bottom: 40px;
+}
+
+.tutorial-section h3 {
+  color: #fc8910;
+  font-size: 1.6em;
+  margin-bottom: 10px;
+}
+
+.tutorial-section p {
+  color: #b0b0b0;
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+/* Enhancing links for tutorial pages */
+.tutorial-section a {
+  color: #fc8910;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.tutorial-section a:hover {
+  background-color: #333;
+  border-radius: 5px;
+}
+
+/* For better visibility on buttons */
+.button {
+  padding: 15px 30px;
+  background-color: #fc8910;
+  color: white;
+  font-size: 1.1em;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #d65300;
+}
